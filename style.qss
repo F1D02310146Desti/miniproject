@@ -1,0 +1,29 @@
+QMainWindow {
+    background: #f4f6f8;
+}
+
+QPushButton {
+    background: #1f3b5b;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background: #2c5282;
+}
+
+QLineEdit, QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+QTableWidget {
+    background: white;
+}
+
+QHeaderView::section {
+    background: #1f3b5b;
+    color: white;
+}
